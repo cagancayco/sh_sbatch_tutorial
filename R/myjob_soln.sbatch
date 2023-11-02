@@ -2,7 +2,7 @@
 #SBATCH --job-name=myjob
 #SBATCH --partition=dev
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=16GB
+#SBATCH --mem-per-cpu=4GB
 #SBATCH --time=10:00
 #SBATCH --mail-type=ALL
 #SBATCH --output=myjob.%j.out
